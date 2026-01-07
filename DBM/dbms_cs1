@@ -1,0 +1,292 @@
+Oracle
+- Highly popular in enterprise environments for mission-critical applications.
+- Supports multi-model data including relational, document, graph, and spatial.
+- Offers advanced security features and robust transaction management.
+- Known for high scalability and performance tuning capabilities.
+- Frequently used in banking, telecom, and government sectors.
+
+MySQL
+- Open-source and widely adopted for web applications.
+- Backed by Oracle but remains community-driven with forks like MariaDB.
+- Supports ACID compliance and strong replication features.
+- Lightweight and easy to deploy, especially for small to medium projects.
+- Popular choice for LAMP stack (Linux, Apache, MySQL, PHP/Python).
+
+Microsoft SQL Server
+- Seamlessly integrates with Microsoft ecosystem (Azure, .NET, Excel).
+- Offers graph, spatial, and JSON support alongside relational data.
+- Strong BI and analytics tools like SSRS, SSIS, and SSAS.
+- Known for user-friendly management tools (SQL Server Management Studio).
+- Widely used in corporate and enterprise IT environments.
+
+PostgreSQL
+- Open-source with a strong reputation for standards compliance.
+- Supports advanced data types (JSONB, arrays, custom types).
+- Excellent for complex queries and large datasets.
+- Extensible with custom functions, plugins, and procedural languages.
+- Increasingly popular in cloud-native and data science applications.
+
+Snowflake
+- Cloud-native data warehouse with separation of compute and storage.
+- Excels in scalability and performance for big data analytics.
+- Supports semi-structured data like JSON and Parquet.
+- Offers automatic scaling and concurrency without manual tuning.
+- Popular in modern data stack and ELT workflows.
+
+IBM Db2
+- Enterprise-grade with strong support for hybrid cloud deployments.
+- Offers AI-powered query optimization and data virtualization.
+- Supports multi-model data including relational, document, and RDF.
+- Known for high reliability and security in regulated industries.
+- Used in finance, healthcare, and government sectors.
+
+SQLite
+- Embedded database used in mobile apps, browsers, and IoT devices.
+- Zero configuration and serverless architecture.
+- Lightweight and ideal for local storage and prototyping.
+- ACID-compliant with full SQL support.
+- Extremely popular in Android and iOS development.
+
+Databricks
+- Built on Apache Spark, optimized for big data and machine learning.
+- Supports multi-model data including relational and document.
+- Integrates with Delta Lake for ACID transactions on data lakes.
+- Ideal for collaborative notebooks and data science workflows.
+- Gaining traction in AI-driven analytics and lakehouse architecture.
+
+MariaDB
+- Community-developed fork of MySQL with enhanced features.
+- Offers columnar storage and temporal tables.
+- Supports multi-model data including relational and spatial.
+- Strong focus on performance and security enhancements.
+- Used in open-source and enterprise environments.
+
+Microsoft Access
+- Desktop-based RDBMS for small-scale applications.
+- Integrates well with Microsoft Office suite.
+- Ideal for rapid prototyping and internal tools.
+- Limited scalability but easy to use for non-developers.
+- Often used in small businesses and educational settings.
+
+
+
+
+
+
+
+
+
+1] Document Stores
+MongoDB
+- Dominates the document store space with broad adoption and community support.
+- Stores data in flexible JSON-like documents, ideal for dynamic schemas.
+- Offers powerful features like aggregation pipelines, indexing, and sharding.
+- Supports multi-model capabilities, including time series and spatial data.
+- Widely used in web apps, content management, and IoT platforms.
+
+Databricks
+- Built on Apache Spark, optimized for big data and analytics.
+- Supports document and relational models, making it highly versatile.
+- Integrates with Delta Lake for ACID transactions on data lakes.
+- Ideal for machine learning workflows and collaborative notebooks.
+- Gaining popularity in AI-driven data engineering.
+
+Amazon DynamoDB
+- Fully managed serverless NoSQL database from AWS.
+- Supports key-value and document data models.
+- Offers single-digit millisecond latency at scale.
+- Built-in security, backup, and global replication.
+- Commonly used in gaming, mobile apps, and real-time analytics.
+
+ Microsoft Azure Cosmos DB
+- Globally distributed with multi-model support, including document, graph, and key-value.
+- Guarantees single-digit millisecond response times and 99.999% availability.
+- Offers five consistency models for flexible performance tuning.
+- Integrates seamlessly with Azure services and SDKs.
+- Popular for multi-region apps and mission-critical workloads.
+
+Firebase Realtime Database
+- Real-time syncing of data across clients using JSON tree structure.
+- Designed for mobile and web apps, especially in the Google ecosystem.
+- Offers offline support and automatic data syncing.
+- Scales horizontally with Firebase Authentication and Hosting.
+- Great for chat apps, live dashboards, and collaborative tools.
+
+
+
+
+
+2] Key - Value Stores
+Redis
+- Renowned for blazing-fast performance and in-memory data storage.
+- Supports advanced data structures like lists, sets, hashes, and streams.
+- Widely used for caching, real-time analytics, and pub/sub messaging.
+- Offers persistence options via snapshots and append-only files.
+- Powers high-throughput systems in gaming, finance, and social media.
+
+Amazon DynamoDB
+- Fully managed by AWS with serverless architecture.
+- Supports both key-value and document models.
+- Delivers single-digit millisecond latency at massive scale.
+- Built-in features include global replication, backup, and security.
+- Ideal for mobile apps, IoT, and real-time bidding platforms.
+
+Microsoft Azure Cosmos DB
+- Globally distributed with multi-model support, including key-value.
+- Guarantees 99.999% availability and low-latency access.
+- Offers five consistency levels for flexible performance tuning.
+- Integrates seamlessly with Azure services and SDKs.
+- Used in mission-critical apps and multi-region deployments.
+
+Memcached
+- Lightweight and simple in-memory caching system.
+- Designed for speed over durability—no persistence layer.
+- Ideal for reducing database load and accelerating web apps.
+- Supports distributed architecture for horizontal scaling.
+- Commonly used in content delivery networks and session storage.
+
+etcd
+- Distributed key-value store built for high availability and consistency.
+- Core component of Kubernetes for storing cluster state.
+- Uses the Raft consensus algorithm for fault tolerance.
+- Supports watch mechanisms for real-time updates.
+- Trusted in cloud-native infrastructure and service discovery.
+
+
+
+
+
+
+3] Time Series DBMS
+InfluxDB
+- Specializes in high-performance time-series data ingestion and querying.
+- Offers Flux, a powerful query language tailored for time-series analysis.
+- Supports downsampling, retention policies, and continuous queries.
+- Integrates well with Grafana, Telegraf, and other monitoring tools.
+- Used in IoT, DevOps, and real-time analytics across industries.
+
+Prometheus
+- Designed for monitoring and alerting, especially in cloud-native environments.
+- Pull-based model with powerful PromQL query language.
+- Integrates seamlessly with Kubernetes and containerized apps.
+- Stores data in custom time-series format optimized for metrics.
+- Widely adopted in DevOps and infrastructure monitoring.
+
+Kdb+
+- Known for ultra-fast analytics on massive time-series datasets.
+- Uses q language, ideal for financial and trading applications.
+- Combines columnar storage and in-memory processing.
+- Trusted by banks and hedge funds for tick-level data analysis.
+- Supports relational and vector data models for flexibility.
+
+Graphite
+- Simple and effective for real-time graphing of numeric time-series data.
+- Works well with Carbon and Whisper for data storage and retrieval.
+- Integrates with Grafana and other visualization tools.
+- Best suited for small to medium-scale monitoring setups.
+- Lightweight and easy to deploy in on-prem environments.
+
+TimescaleDB
+- Built on PostgreSQL, combining relational power with time-series efficiency.
+- Offers hypertables for scalable time-series partitioning.
+- Supports SQL queries, making it developer-friendly.
+- Ideal for IoT, financial data, and observability platforms.
+- Extensible with PostgreSQL plugins and tooling.
+
+
+
+
+
+
+
+4] Graph DBMS
+Neo4j
+- Industry leader in graph databases with native graph storage and processing.
+- Uses Cypher, a powerful and intuitive query language for graph traversal.
+- Supports ACID transactions, making it reliable for enterprise use.
+- Offers graph algorithms and data science libraries for advanced analytics.
+- Widely adopted in fraud detection, knowledge graphs, and network analysis.
+
+Microsoft Azure Cosmos DB
+- Multi-model DBMS with native support for graph data via Gremlin API.
+- Globally distributed with low-latency access and high availability.
+- Integrates seamlessly with Azure services and SDKs.
+- Offers five consistency models for flexible performance tuning.
+- Ideal for real-time recommendation systems and social graphs.
+
+Aerospike
+- Multi-model database with support for graph, document, and key-value data.
+- Known for high performance and low latency at scale.
+- Offers strong consistency and automatic failover.
+- Suitable for real-time analytics and personalization engines.
+- Gaining traction in ad tech, financial services, and telecom.
+
+ArangoDB
+- Multi-model DBMS combining graph, document, and key-value models.
+- Uses AQL (ArangoDB Query Language) for flexible querying across models.
+- Supports distributed deployments and horizontal scaling.
+- Ideal for complex data relationships and hybrid use cases.
+- Popular in microservices, recommendation engines, and metadata management.
+
+Virtuoso
+- Multi-model DBMS with strong support for RDF and SPARQL.
+- Combines graph, relational, and document models in one engine.
+- Used extensively in semantic web and linked data applications.
+- Offers high-performance reasoning and inference capabilities.
+- Trusted in academic research, government data portals, and knowledge graphs.
+
+
+
+
+
+5] Object Oriented DBMS
+InterSystems IRIS
+- Multi-model powerhouse supporting object-oriented, relational, key-value, and document models.
+- Offers high-performance data processing for real-time analytics and transactional workloads.
+- Integrates seamlessly with AI, machine learning, and interoperability standards like HL7 and FHIR.
+- Provides native support for object classes, making it developer-friendly for OOP languages.
+- Widely used in healthcare, finance, and logistics for mission-critical systems.
+
+GridGain
+- Built on Apache Ignite, offering in-memory computing and distributed caching.
+- Supports object-oriented and relational models, ideal for hybrid use cases.
+- Enables real-time data access with ACID compliance and SQL support.
+- Scales horizontally with high availability and fault tolerance.
+- Popular in financial services, telecom, and high-performance computing.
+
+Actian NoSQL Database
+- Focused on object-oriented data modeling for complex applications.
+- Offers schema flexibility and tight integration with Java and .NET.
+- Designed for embedded systems and real-time analytics.
+- Supports ACID transactions and high concurrency.
+- Used in industrial automation, defense, and embedded software.
+
+ObjectStore
+- One of the earliest object-oriented DBMS, optimized for C++ and Java integration.
+- Stores objects natively with direct memory mapping, reducing serialization overhead.
+- Ideal for real-time systems and simulation environments.
+- Offers versioning and object persistence features.
+- Trusted in aerospace, telecom, and engineering applications.
+
+Db4o
+- Lightweight and embeddable DBMS for Java and .NET applications.
+- Stores objects as-is, eliminating the need for ORM layers.
+- Supports transparent persistence and object queries.
+- Great for mobile, desktop, and embedded systems.
+- Known for its simplicity and developer-friendly API.
+
+
+
+
+
+Relational DBMS (RDBMS) Stores data in **structured tables** with predefined schemas and relationships. Uses **SQL** for querying.
+
+Document Stores Stores data as **flexible, JSON-like documents**. Ideal for **semi-structured and evolving schemas**.
+
+Key-Value Stores Stores data as **simple pairs of key and value**. Extremely **fast** and used for **caching and quick lookups**.
+
+Graph DBMS Models data as **nodes and edges**, capturing complex relationships. Great for **network analysis and recommendations**.
+
+Time Series DBMS Optimized for **timestamped data**, enabling fast querying, aggregation, and retention. Used in **monitoring and IoT**.
+
+Object-Oriented DBMS Stores data as **objects**, matching programming models in languages like Java or C++. Ideal for **complex, nested structures**.
